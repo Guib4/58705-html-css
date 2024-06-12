@@ -1,0 +1,16 @@
+div {
+    /* propriedades decorativas */
+    border: dotted 5px red;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    /* propriedades que fazem o "problema" */
+    height: 200px;
+    width: 300px;
+    overflow: scroll;
+    margin: 5px 8px;
+    padding: 6px 9px;
+    
+
+    
+}
