@@ -1,0 +1,82 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+.qualquercoisa {
+    background-color: aqua;
+}
+
+/* passar o mouse por cima */
+.qualquercoisa:hover {
+    background-color: blue;
+}
+
+/* clicar no link */
+a:visited {
+    color: red;
+}
+
+/* clicar e segurar */
+.ativa:active {
+    background-color: violet;
+}
+
+/* focar em um elemento */
+.FOCO:focus {
+    background-color: green;
+}
+
+section:first-child {
+    background-color: red;
+}
+
+section:last-child {
+    background-color: gray;
+}
+
+section:nth-child(3) {
+    background-color: brown;
+}
+
+/* li:not(.diferente) {
+    background-color: yellow;
+} */
+
+input[type="radio"]:checked {
+    margin: 25px
+}
+
+:disabled {
+    background-color: grey;
+}
+
+input[type="email"]:valid {
+    background-color: green;
+}
+
+input[type="email"]:invalid {
+    background-color: red;
+}
+
+::placeholder{
+    color: blue;
+}
+
+p::first-letter{
+    font-size: 50px;
+    background-color: red;
+}
+
+p::first-line{
+    background-color: blue;
+}
+
+::selection{
+    background-color: purple;
+}
+
+::marker{
+    margin: 25px;
+    color: darkorange;
+}
